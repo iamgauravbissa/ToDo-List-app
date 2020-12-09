@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(./cool-background.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Nerko One', cursive;
+}
+.heading{
+    margin: 30px;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.add{
+    padding: 5px;
+}
+.minihead{
+    font-size: 40px;
+}
+.todo{
+    border-radius: 5px;
+    width: 200px;
+    background-color: grey;
+    height: 30px;
+    font-family: 'Nerko One';
+    font-size: 20px;
+}
+.todo:hover{
+    width: 220px;
+    background-color: black;
+    height: 35px;
+    color: white;
+}
+.todobutton{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Nerko One';
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    transition: .5s;
+}
+.todobutton:hover{
+   padding:12px;
+   font-size: 22px;
+   background-color:transparent;
+   color:black;
+}
+.checklist{
+    font-size: 40px;
+}
+
+
